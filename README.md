@@ -37,7 +37,6 @@ Returns an `Audio` object initialized with the WAV's data.
 [jamen-image]: https://avatars2.githubusercontent.com/u/6251703?v=3&s=125
 [travis-image]: https://travis-ci.org/audiojs/decode-wav.svg?branch=master
 [travis-url]: https://travis-ci.org/audiojs/decode-wav
-[audio]: https://github.com/audiojs/audio
-[david]: https://david-dm.org/audiojs/decode-wav.svg
+[audio]: https://github.com/jamen/node-audio
 [gitter]: https://gitter.im/jamen/node-audio
 [gitter-icon]: https://img.shields.io/gitter/room/jamen/node-audio.svg
