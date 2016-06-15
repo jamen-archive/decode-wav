@@ -10,8 +10,9 @@ module.exports = function decode(wav) {
     throw new Error('Input not WAV encoded');
   }
 
+  // Determine audio format.
   if (wav.readUInt16LE(20) === 1) {
-    // PCM-encoded WAV audio
+    // PCM format.
     data.sampleRate = wav.readInt32LE(24);
     data.bitDepth = wav.readInt16LE(34);
     data.sample = wav.slice(44);
